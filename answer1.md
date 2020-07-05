@@ -1,4 +1,4 @@
-*Function isSubset 
+***Function isSubset 
 *Inputs A: Array of Char , B: Array of Char 
 *Returns Bool 
 *Variables i,j: Integer , flag: Bool (with default value false)
