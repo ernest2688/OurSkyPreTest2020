@@ -21,7 +21,7 @@ return flag;
 End
 
 Explaination:
-
+---------------------------------------------------------------------
 The outer loop is the scanning of the 2nd array.I assume the second
 array is shorter. Then the inner loop is for checking whether each
 element of the second array is included in the first array. So the
