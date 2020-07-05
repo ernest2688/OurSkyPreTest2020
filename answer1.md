@@ -6,9 +6,10 @@ Returns Bool
 <br>
 Variables i,j: Integer , flag: Bool (with default value false)
 
-Begin
+Code
 --------------------------
 ```
+Begin
 for i:= 0 to size(B)-1 do
     flag:=false;
     for j:=0 to size(A)-1 do 
