@@ -71,6 +71,7 @@ for i:=0 to i:=m-1 do
 	T[k].weight=weight;
 	return;
     fi
+od
 
 for i:=0 to i:=m-1 do
     if(current_time != last_access_time) 
