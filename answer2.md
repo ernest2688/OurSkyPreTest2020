@@ -54,10 +54,13 @@ Since it is direct mapping, the best/average case of complaxity could be O(1). T
 
 
 Function put(key, value, weight) 
+-----------------
 Inputs key: key value value: the value to be stored weight: the number using for invalidating keys
+<br>
 Returns void
+<br>
 Variables i,k,score,min:integer (min default value:=0)
-
+```
 Begin
 for i:=0 to i:=m-1 do
     k:=(h(k) + i ) mod m;
@@ -84,8 +87,11 @@ T[k].value=value;
 T[k].weight=weight;
 return;
 End
+```
     
-Explanation: It is quite similar to the get function. The difference is that it will fit if empty struct is found. 
+Explanation:
+------------------------
+It is quite similar to the get function. The difference is that it will fit if empty struct is found. 
 However, if all the structs are occupied, then it will search the struct with the least score given by the calculation,
 and the key, value,and the weight is stored to the calculated destination. For hashing, the big O is with worst case of O(n), 
 and finding minimum requires O(n) complexity. So the worst case is still O(n). While the best case/ average case could remain as O(1).      
