@@ -56,7 +56,7 @@ Since it is direct mapping, the best/average case of complaxity could be O(1). T
 
 Function put(key, value, weight) 
 -----------------
-Inputs key: key value value: the value to be stored weight: the number using for invalidating keys
+Inputs key: key value, value: the value to be stored, weight: the number using for invalidating keys
 <br>
 Returns void
 <br>
