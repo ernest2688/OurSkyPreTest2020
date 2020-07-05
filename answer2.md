@@ -3,8 +3,8 @@ Assumption: - using linear probing as collusion solution.
             <br>
 	    - the hash table is an array with size:= m
 	    <br>
-	    - key value is an integer (for simplicity)
-	    	    
+	    - For simplicity, key value is an integer 
+	    <br>
 	    - the hash function is h(k)=k mod m, where k is the key and m is the size of the hash table, usually prime. 
 	    <br>
 	    - the overall structure is that there is an array storing a sturcture which has the key attribute,value attribute and weight attribute
