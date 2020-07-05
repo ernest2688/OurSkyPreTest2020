@@ -25,7 +25,7 @@ Variables  i,m,k:integer (m is the size of hash table) T:array (hash table)
 
 Begin
 --------------------
-````
+```
 
 for i:=0 to i:=m-1 do
     k:=(h(k) + i ) mod m;
