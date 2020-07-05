@@ -1,10 +1,10 @@
-***Function isSubset
+Function isSubset
 <br>
->Inputs A: Array of Char , B: Array of Char
+Inputs A: Array of Char , B: Array of Char
 <br>
->Returns Bool
+Returns Bool
 <br>
->Variables i,j: Integer , flag: Bool (with default value false)
+Variables i,j: Integer , flag: Bool (with default value false)
 
 Begin
 --------------------------
