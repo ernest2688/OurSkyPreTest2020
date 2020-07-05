@@ -23,10 +23,10 @@ Returns:int
 <br>
 Variables  i,m,k:integer (m is the size of hash table) T:array (hash table)
 
-Begin
+Code
 --------------------
 ```
-
+Begin
 for i:=0 to i:=m-1 do
     k:=(h(k) + i ) mod m;
     if(T[k].key = key) 
@@ -61,6 +61,9 @@ Inputs key: key value, value: the value to be stored, weight: the number using f
 Returns void
 <br>
 Variables i,k,score,min:integer (min default value:=0)
+
+Code
+------------------
 ```
 Begin
 for i:=0 to i:=m-1 do
