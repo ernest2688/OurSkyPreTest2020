@@ -32,5 +32,7 @@ function createArrayOfFunctions(y) {
 ```
 
 Reference:
+<br>
 https://stackoverflow.com/questions/44015982/how-to-check-the-index-of-a-function-in-an-array-of-functions-in-javascript
+<br>
 https://stackoverflow.com/questions/750486/javascript-closure-inside-loops-simple-practical-example
