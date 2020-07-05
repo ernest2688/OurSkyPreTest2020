@@ -4,7 +4,7 @@ Assumption: - using linear probing as collusion solution.
 	    - the hash table is an array with size:= m
 	    <br>
 	    - key value is an integer (for simplicity)
-	    <br>	    
+	    	    
 	    - the hash function is h(k)=k mod m, where k is the key and m is the size of the hash table, usually prime. 
 	    <br>
 	    - the overall structure is that there is an array storing a sturcture which has the key attribute,value attribute and weight attribute
@@ -16,11 +16,16 @@ Assumption: - using linear probing as collusion solution.
 
 
 Function get(key)
+---------------
 Inputs key: key value
+<br>
 Returns:int
+<br>
 Variables  i,m,k:integer (m is the size of hash table) T:array (hash table)
 
 Begin
+--------------------
+````
 
 for i:=0 to i:=m-1 do
     k:=(h(k) + i ) mod m;
@@ -35,8 +40,11 @@ for i:=0 to i:=m-1 do
 od
 return -1;
 End
+```
 
-Explanation: If direct hashing is hits the key, then we can directly return the value. If not, walk through the array to find the required key, 
+Explanation: 
+-----------------------------------------------
+If direct hashing is hits the key, then we can directly return the value. If not, walk through the array to find the required key, 
 then return the value. There are two stopping case. First is that the the key is not found after walkthrough the whole array. 
 The second is when you meet an empty struct. This two case can result in the cound not found result.
 Since it is direct mapping, the best/average case of complaxity could be O(1). The worst case would be O(n).
